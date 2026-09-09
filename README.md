@@ -70,7 +70,7 @@ The webfont subsets in [`dist/`](dist/) are categorized into 10 modular chunks:
 
 | File | Category | Description |
 | :--- | :--- | :--- |
-| **`noto-emoji-flags.woff2`** | **Flags (National)** | All country flags featuring the restored Lion & Sun Iran flag <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-color-emoji/refs/heads/main/src/flags/IR.svg" alt="Iran Flag" height="15" valign="middle"> |
+| **`noto-emoji-flags.woff2`** | **Flags (National)** | All country flags featuring the restored Lion & Sun Iran flag <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-color-emoji/refs/heads/main/src/flags/IR.svg" alt="Iran Flag" height="20" valign="middle"> |
 | **`noto-emoji-flags-special.woff2`** | **Flags (Special / Regional)** | Rainbow, pirate, transgender, and subdivision tags (Scotland, Wales, etc.) |
 | **`noto-emoji-symbols.woff2`** | **Symbols & Signs** | Arrows, colored hearts, geometric shapes, zodiac, and punctuation |
 | **`noto-emoji-objects.woff2`** | **Objects & Tools** | Tech, office supplies, clothing, tools, books, and household items |
