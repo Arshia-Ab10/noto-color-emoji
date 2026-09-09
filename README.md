@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-color-emoji/refs/heads/main/src/flags/IR.svg" alt="Iranian Lion and Sun Flag" width="160">
+  <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-emoji/refs/heads/main/src/flags/IR.svg" alt="Iranian Lion and Sun Flag" width="160">
   
   # Noto Color Emoji with Iranian Lion & Sun Flag
 
-  [![jsDelivr](https://data.jsdelivr.com/v1/package/gh/Arshia-Ab10/noto-color-emoji/badge)](https://www.jsdelivr.com/package/gh/Arshia-Ab10/noto-color-emoji)
+  [![jsDelivr](https://data.jsdelivr.com/v1/package/gh/Arshia-Ab10/noto-emoji/badge)](https://www.jsdelivr.com/package/gh/Arshia-Ab10/noto-emoji)
   [![License: OFL-1.1](https://img.shields.io/badge/License-OFL--1.1-blue.svg)](LICENSE)
   [![Format: COLRv1 / WOFF2](https://img.shields.io/badge/Format-COLRv1%20%2F%20WOFF2-success.svg)](#)
   [![Desktop: TTF](https://img.shields.io/badge/Desktop-TTF%20Included-orange.svg)](fonts/)
@@ -35,13 +35,13 @@ This repository provides **10 modular, on-demand WOFF2 subsets** designed for bl
 Add the following stylesheet inside the `<head>` of your HTML document:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Arshia-Ab10/noto-color-emoji@main/dist/font.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Arshia-Ab10/noto-emoji@main/dist/font.css">
 ```
 
 *(Recommended for production: pin to a specific release tag, e.g., `@v1.0.0`)*
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Arshia-Ab10/noto-color-emoji@v1.0.0/dist/font.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Arshia-Ab10/noto-emoji@v1.0.0/dist/font.css">
 ```
 
 ### 2. Apply in CSS
@@ -70,7 +70,7 @@ The webfont subsets in [`dist/`](dist/) are categorized into 10 modular chunks:
 
 | File | Category | Description |
 | :--- | :--- | :--- |
-| **`noto-emoji-flags.woff2`** | **Flags (National)** | All country flags featuring the restored Lion & Sun Iran flag <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-color-emoji/refs/heads/main/src/flags/IR.svg" alt="Iran Flag" height="20" valign="middle"> |
+| **`noto-emoji-flags.woff2`** | **Flags (National)** | All country flags featuring the restored Lion & Sun Iran flag <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-emoji/refs/heads/main/src/flags/IR.svg" alt="Iran Flag" height="20" valign="middle"> |
 | **`noto-emoji-flags-special.woff2`** | **Flags (Special / Regional)** | Rainbow, pirate, transgender, and subdivision tags (Scotland, Wales, etc.) |
 | **`noto-emoji-symbols.woff2`** | **Symbols & Signs** | Arrows, colored hearts, geometric shapes, zodiac, and punctuation |
 | **`noto-emoji-objects.woff2`** | **Objects & Tools** | Tech, office supplies, clothing, tools, books, and household items |
@@ -86,7 +86,7 @@ The webfont subsets in [`dist/`](dist/) are categorized into 10 modular chunks:
 ## 📁 Repository Structure
 
 ```text
-noto-color-emoji/
+noto-emoji/
 ├── fonts/
 │   └── NotoColorEmoji-Regular.ttf    # Full desktop font (COLRv1 vector standard)
 ├── dist/
