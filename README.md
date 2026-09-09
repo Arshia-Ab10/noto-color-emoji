@@ -1,0 +1,1 @@
+# noto-color-emoji
