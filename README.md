@@ -1,11 +1,11 @@
 <div align="center">
   <p align="center">
-    <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-emoji/refs/heads/main/src/flags/IR.svg" alt="Iran (Lion and Sun)" height="44" style="vertical-align: middle; margin: 0 4px;">
-    <img src="https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f1fa_1f1f8.svg" alt="United States" height="44" style="vertical-align: middle; margin: 0 4px;">
-    <img src="https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f1e9_1f1ea.svg" alt="Germany" height="44" style="vertical-align: middle; margin: 0 4px;">
-    <img src="https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f1ee_1f1f1.svg" alt="Israel" height="44" style="vertical-align: middle; margin: 0 4px;">
-    <img src="https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f1ec_1f1e7.svg" alt="United Kingdom" height="44" style="vertical-align: middle; margin: 0 4px;">
-    <img src="https://raw.githubusercontent.com/googlefonts/noto-emoji/main/svg/emoji_u1f1ef_1f1f5.svg" alt="Japan" height="44" style="vertical-align: middle; margin: 0 4px;">
+    <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-emoji/main/third_party/region-flags/waved-svg/emoji_u1f1ee_1f1f7.svg" alt="Iran (Lion and Sun)" height="44" style="vertical-align: middle; margin: 0 4px;">
+    <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-emoji/main/third_party/region-flags/waved-svg/emoji_u1f1fa_1f1f8.svg" alt="United States" height="44" style="vertical-align: middle; margin: 0 4px;">
+    <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-emoji/main/third_party/region-flags/waved-svg/emoji_u1f1e9_1f1ea.svg" alt="Germany" height="44" style="vertical-align: middle; margin: 0 4px;">
+    <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-emoji/main/third_party/region-flags/waved-svg/emoji_u1f1ee_1f1f1.svg" alt="Israel" height="44" style="vertical-align: middle; margin: 0 4px;">
+    <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-emoji/main/third_party/region-flags/waved-svg/emoji_u1f1ec_1f1e7.svg" alt="United Kingdom" height="44" style="vertical-align: middle; margin: 0 4px;">
+    <img src="https://raw.githubusercontent.com/Arshia-Ab10/noto-emoji/main/third_party/region-flags/waved-svg/emoji_u1f1ef_1f1f5.svg" alt="Japan" height="44" style="vertical-align: middle; margin: 0 4px;">
   </p>
 
   # Noto Color Emoji (COLRv1)
