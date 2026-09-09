@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noto Color Emoji (Lion & Sun) - Webfont Demo</title>
+    
+    <!-- jsDelivr CDN link to your repository -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Arshia-Ab10/noto-color-emoji@main/dist/font.css">
+
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --card-dark: #1e293b;
+            --border-dark: #334155;
+            --text-dark: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-dark);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .emoji {
+            font-family: 'Noto Color Emoji', sans-serif;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 26px;
+            margin: 0 0 10px 0;
+            font-weight: 700;
+        }
+
+        p.subtitle {
+            color: var(--text-muted);
+            margin: 0 0 20px 0;
+            font-size: 15px;
+        }
+
+        #status-badge {
+            display: inline-block;
+            padding: 6px 18px;
+            border-radius: 9999px;
+            font-size: 13px;
+            font-weight: 600;
+            background: #eab308;
+            color: #000;
+            transition: all 0.3s ease;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 960px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .card {
+            border-radius: 16px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        }
+
+        .card.dark {
+            background-color: var(--card-dark);
+            border: 1px solid var(--border-dark);
+            color: #ffffff;
+        }
+
+        .card.light {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            color: #0f172a;
+        }
+
+        .card-label {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            opacity: 0.7;
+        }
+
+        .flag-hero {
+            font-size: 110px;
+            line-height: 1;
+            margin: 10px 0 25px 0;
+            cursor: pointer;
+            transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        .flag-hero:hover {
+            transform: scale(1.1);
+        }
+
+        .scale-row {
+            display: flex;
+            align-items: baseline;
+            gap: 16px;
+            padding: 12px 18px;
+            border-radius: 12px;
+            background: rgba(125, 125, 125, 0.08);
+            margin-bottom: 25px;
+        }
+
+        .grid-section-title {
+            font-size: 13px;
+            opacity: 0.75;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+
+        .flag-grid {
+            font-size: 32px;
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .emoji-showcase {
+            font-size: 28px;
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .interactive-section {
+            width: 100%;
+            max-width: 960px;
+            margin-top: 30px;
+            background: var(--card-dark);
+            border: 1px solid var(--border-dark);
+            border-radius: 16px;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        .interactive-section label {
+            display: block;
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 14px 18px;
+            border-radius: 10px;
+            border: 1px solid var(--border-dark);
+            background: #0b1120;
+            color: #fff;
+            font-size: 22px;
+            box-sizing: border-box;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"]:focus {
+            border-color: #38bdf8;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Noto Color Emoji — Iranian Lion & Sun Flag</h1>
+        <p class="subtitle">Modular WOFF2 (COLRv1) Webfont Subsets delivered via jsDelivr CDN</p>
+        <div id="status-badge">Checking font status...</div>
+    </header>
+
+    <div class="container">
+        <!-- Dark Mode Showcase -->
+        <div class="card dark">
+            <span class="card-label">Dark Theme Preview</span>
+            
+            <div class="flag-hero emoji" title="Iranian Lion and Sun Flag">🇮🇷</div>
+            
+            <div class="scale-row emoji">
+                <span style="font-size: 16px;">🇮🇷</span>
+                <span style="font-size: 24px;">🇮🇷</span>
+                <span style="font-size: 32px;">🇮🇷</span>
+                <span style="font-size: 48px;">🇮🇷</span>
+                <span style="font-size: 64px;">🇮🇷</span>
+            </div>
+
+            <span class="grid-section-title">International Flags (Ligature Test)</span>
+            <div class="flag-grid emoji">
+                🇹🇷 🇩🇪 🇫🇷 🇬🇧 🇺🇸 🇮🇱 🇯🇵
+            </div>
+
+            <span class="grid-section-title">Other Subsets (ZWJ & Expressions)</span>
+            <div class="emoji-showcase emoji">
+                🦁 ☀️ 👑 🗡️ 👨‍👩‍👧‍👦 🫠 🪩 🫧
+            </div>
+        </div>
+
+        <!-- Light Mode Showcase -->
+        <div class="card light">
+            <span class="card-label">Light Theme Preview</span>
+            
+            <div class="flag-hero emoji" title="Iranian Lion and Sun Flag">🇮🇷</div>
+            
+            <div class="scale-row emoji">
+                <span style="font-size: 16px;">🇮🇷</span>
+                <span style="font-size: 24px;">🇮🇷</span>
+                <span style="font-size: 32px;">🇮🇷</span>
+                <span style="font-size: 48px;">🇮🇷</span>
+                <span style="font-size: 64px;">🇮🇷</span>
+            </div>
+
+            <span class="grid-section-title">International Flags (Ligature Test)</span>
+            <div class="flag-grid emoji">
+                🇹🇷 🇩🇪 🇫🇷 🇬🇧 🇺🇸 🇮🇱 🇯🇵
+            </div>
+
+            <span class="grid-section-title">Other Subsets (ZWJ & Expressions)</span>
+            <div class="emoji-showcase emoji">
+                🦁 ☀️ 👑 🗡️ 👨‍👩‍👧‍👦 🫠 🪩 🫧
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Test Input -->
+    <div class="interactive-section">
+        <label for="live-input">Type or paste text to test live rendering:</label>
+        <input type="text" id="live-input" class="emoji" value="Iran 🇮🇷 Free Iran 🦁☀️ 1964 Flag">
+    </div>
+
+    <script>
+        // Check font loading status using the CSS Font Loading API
+        document.fonts.ready.then(() => {
+            const badge = document.getElementById('status-badge');
+            if (document.fonts.check('1em "Noto Color Emoji"')) {
+                badge.innerText = 'CDN Font Loaded Successfully ✔';
+                badge.style.background = '#22c55e';
+                badge.style.color = '#ffffff';
+            } else {
+                badge.innerText = 'Font failed to load (Check CDN URL or network) ✖';
+                badge.style.background = '#ef4444';
+                badge.style.color = '#ffffff';
+            }
+        });
+    </script>
+</body>
+</html>
